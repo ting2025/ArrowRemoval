@@ -18,7 +18,7 @@ Mechanistic molecular ground truth data and image segmentation masks can be foun
 **Model Training**
 Run the training script or train.py.
 ```
-sbatch scripts/train.sh
+$ sbatch scripts/train.sh
 ```
 Save the best checkpoint to MODEL.pth
 **Prediction**
