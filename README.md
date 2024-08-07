@@ -13,7 +13,7 @@ $ pip install -r requirements.txt
 **Data preparation** <br/>
 Ground truth images used for training are in RGB format. Image masks should be in Black and White format. they should be in identical names under _imgs_ and _masks_ folders. <br/>
 All the images should be squares. Place them on a squared canvas if necessary. The model works well for images sizing under 600*600. <br/>
-Mechanistic molecular ground truth data and image segmentation masks can be found on [IMGS](https://doi.org/10.5281/zenodo.11060696) and [MASKS](https://doi.org/10.5281/zenodo.11060696). <br/>
+Mechanistic molecular ground truth data and image segmentation masks can be found on [ZENODO}(https://zenodo.org/records/12741238). <br/>
 
 **Model Training**<br/>
 Run the training script or train.py.
@@ -23,6 +23,17 @@ $ sbatch scripts/train.sh
 Save the best checkpoint to MODEL.pth<br/>
 
 **Prediction**<br/>
+After training your model and saving it to MODEL.pth, you can easily test the output masks on your images via the CLI.
+
+To predict a single image and save it:
+```
+$ python predict.py -i image.jpg -o output.jpg
+```
+To predict a multiple images and show them without saving them:
+```
+$ python predict.py -i image1.jpg image2.jpg --viz --no-save
+```
+
 
 
 ## Updates
