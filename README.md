@@ -13,7 +13,7 @@ $ pip install -r requirements.txt
 **Data preparation** <br/>
 Ground truth images used for training are in RGB format. Image masks should be in Black and White format. they should be in identical names under _imgs_ and _masks_ folders. <br/>
 All the images should be squares. Place them on a squared canvas if necessary. The model works well for images sizing under 600*600. <br/>
-Mechanistic molecular ground truth data and image segmentation masks can be found on [ZENODO}(https://zenodo.org/records/12741238). <br/>
+Mechanistic molecular ground truth data and image segmentation masks can be found on [ZENODO](https://zenodo.org/records/12741238). <br/>
 
 **Model Training**<br/>
 Run the training script or train.py.
