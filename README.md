@@ -39,5 +39,6 @@ $ python predict.py -i image1.jpg image2.jpg --viz --no-save
 ## Updates
 12/7/24 Repository created. Code coming soon.<br/>
 14/7/24 Code updated.<br/>
-7/8/24 Data uploaded.
+7/8/24 Data uploaded. <br/>
+12/9/24 Reaction mechanism database uploaded
 
