@@ -37,7 +37,8 @@ $ python predict.py -i image1.jpg image2.jpg --viz --no-save
 ## Application on Chemical Reaction Mechanism Images
 We collected 293 reaction mechanism images from textbook: Named Reactions 4th edition (Li, 2009). <br/>
 Each image is named with its reaction name. The images are processed with this model and parsed by RxnScribe (Qian, 2023).
-Find the images and [parsed dataset](rxn_data/batch_prediction.json).
+Find the images and [parsed dataset](rxn_data/batch_prediction.json). <br/>
+Note that the dataset includes errors still even though it performs better with preprocessing of arrow removals. This dataset does not aim to serve as a benchmark, but more of a centralized and unified collection of reaction that benefit future researches in both chemistry and computer vision.
 
 
 
