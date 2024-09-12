@@ -52,5 +52,5 @@ Note that the dataset includes errors still even though it performs better with 
 12/7/24 Repository created. Code coming soon.<br/>
 14/7/24 Code updated.<br/>
 7/8/24 Data uploaded. <br/>
-12/9/24 Reaction mechanism database uploaded
+12/9/24 Reaction mechanism database uploaded. <br/>
 
