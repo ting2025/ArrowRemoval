@@ -35,7 +35,7 @@ $ python predict.py -i image1.jpg image2.jpg --viz --no-save
 ```
 
 ## Application on Chemical Reaction Mechanism Images
-We collected 293 reaction mechanism images from textbook: Named Reactions 4th edition (Li, 2009). <br/>
+We collected 296 reaction mechanism images from textbook: Named Reactions 4th edition (Li, 2009). <br/>
 
 **Usage**<br/>
 Each image is named with its reaction name. The images are processed with this model and parsed by RxnScribe (Qian, 2023).
