@@ -40,7 +40,7 @@ We collected 296 reaction mechanism images from textbook: Named Reactions 4th ed
 **Usage**<br/>
 Each image is named with its reaction name. The images are processed with this model and parsed by RxnScribe (Qian, 2023).
 it contains information such as predicted molecular identity, positions and reaction conditions. 
-Find the images and [parsed dataset](rxn_data/batch_prediction.json). <br/>
+Find the [images](https://huggingface.co/datasets/Ting25/MechRxn/tree/main) and [parsed dataset](rxn_data/batch_prediction.json). <br/>
 
 **Disclaimer**<br/>
 Note that the dataset includes errors still even though it performs better with preprocessing of arrow removals. This dataset does not aim to serve as a benchmark, but more of a centralized and unified collection of reaction that benefit future researches in both chemistry and computer vision.
